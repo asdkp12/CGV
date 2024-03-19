@@ -1,0 +1,66 @@
+/* 아래는 font awesome 입니다. */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+
+/* body 레이아웃 조절. */
+
+/* body {
+  width: 52%;
+  margin: 0 auto;
+  
+} */
+
+
+body {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* 상단 메뉴바. */
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 2px solid greenyellow;
+}
+
+button {
+  background: #f2f0e5;
+}
+
+/* 영화 극장 날짜 시간 */
+
+.search {
+  
+  background-color: #333333;
+  /* height: 25px;
+  bottom: 25px; */
+  
+}
+
+.search .el {
+  color: #f2f0e5;
+  display: flex;
+  justify-content: space-between;
+}
+.search .el .movie {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+ flex : 1;
+}
+.search .el .theather {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+  flex : 1;
+}
+.search .el .date {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+  flex : 1;
+}
+.search .el .time {
+  border: 2px solid #f2f0e5;
+  border-style: none solid;
+  flex : 1;
+}

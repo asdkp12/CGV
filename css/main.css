@@ -1,5 +1,5 @@
 /* 아래는 font awesome 입니다. */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
 
 /* body 레이아웃 조절. */
 
@@ -9,34 +9,50 @@
   
 } */
 
-
-body {
+section {
   width: 980px;
   margin: 0 auto;
 }
 
 /* 상단 메뉴바. */
 
-nav ul {
+.navi .top {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   margin-top: 30px;
   margin-bottom: 10px;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
+  padding: 30px 0px 15px 0px;
 }
 
-button {
+.navi .top .top-menu {
+  color: #333333;
+  margin-left: 5px;
+}
+
+.navi .top .top-menu .btn {
   background: #f2f0e5;
+  font-size: 12px;
+  border-radius: 3px;
+  border-width: 1px;
 }
 
+.navi .top .top-menu .btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 25px;
+  font-weight: bolder;
+  color: #333333;
+}
+
+/* 패딩 어케 넣냐 진짜 화나네 */
 /* 영화 극장 날짜 시간 */
 
-.search {
-  
+.search .el {
   background-color: #333333;
   /* height: 25px;
   bottom: 25px; */
-  
 }
 
 .search .el {
@@ -44,23 +60,88 @@ button {
   display: flex;
   justify-content: space-between;
 }
+
 .search .el .movie {
   border: 2px solid #f2f0e5;
   border-style: none solid;
- flex : 1;
+  flex: 1;
 }
-.search .el .theather {
+.search .el .theater {
   border: 2px solid #f2f0e5;
   border-style: none solid;
-  flex : 1;
+  flex: 1;
 }
 .search .el .date {
   border: 2px solid #f2f0e5;
   border-style: none solid;
-  flex : 1;
+  flex: 1;
 }
 .search .el .time {
   border: 2px solid #f2f0e5;
   border-style: none solid;
-  flex : 1;
+  flex: 1;
+}
+
+/* 맨위 까만색 부분 */
+
+section.main-box .header tr.el2 {
+  display: flex;
+}
+section.main-box .header {
+  width: 100%;
+}
+section.main-box .header tr.el2 td {
+  color: #f2f0e5;
+  background: #333333;
+
+  text-align: center;
+  padding: 9px;
+  border: 1px solid #f2f0e5;
+}
+
+section.main-box .header tr.el2 td:nth-child(1) {
+  flex-grow: 3;
+}
+section.main-box .header tr.el2 td:nth-child(2) {
+  flex-grow: 3;
+}
+section.main-box .header tr.el2 td:nth-child(3) {
+  flex-grow: 1;
+}
+section.main-box .header tr.el2 td:nth-child(4) {
+  flex-grow: 4;
+}
+/* 맨위 까만거 끗 */
+/* 영화칸 */
+section {
+  background: #f2f0e5;
+}
+section#color {
+  background: #ffffff;
+}
+section.main-box .headtxt {
+  color: skyblue;
+}
+section.main-box .headtxt button {
+  border-radius: 0;
+}
+/* footer */
+.container {
+  background: url("../images/final.png") no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.img-box2 {
+  position: absolute;
+  right: 0;
+  top: 7%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border: none;
+  background: none;
 }

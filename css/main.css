@@ -8,10 +8,26 @@
   margin: 0 auto;
   
 } */
-
-section {
+section.main-box .contents {
+  height: 100%;
+  width: 262.25px;
+}
+section.main-box .contents2 {
+  height: 100%;
+  width: 262.25px;
+}
+section.main-box .contents2 .headtxt2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+section.main-box .contents2 .headtxt2 button {
+  width: 33%;
+}
+section.main-box {
   width: 980px;
   margin: 0 auto;
+  display: flex;
 }
 
 /* 상단 메뉴바. */
@@ -84,11 +100,11 @@ section {
 
 /* 맨위 까만색 부분 */
 
-section.main-box .header tr.el2 {
+/* section.main-box .header tr.el2 {
   display: flex;
 }
 section.main-box .header {
-  width: 100%;
+  width: 374%;
 }
 section.main-box .header tr.el2 td {
   color: #f2f0e5;
@@ -110,13 +126,13 @@ section.main-box .header tr.el2 td:nth-child(3) {
 }
 section.main-box .header tr.el2 td:nth-child(4) {
   flex-grow: 4;
-}
+} */
 /* 맨위 까만거 끗 */
 /* 영화칸 */
 section {
   background: #f2f0e5;
 }
-section#color {
+section #color {
   background: #ffffff;
 }
 section.main-box .headtxt {
@@ -125,6 +141,73 @@ section.main-box .headtxt {
 section.main-box .headtxt button {
   border-radius: 0;
 }
+
+section.main-box .contents {
+  /* background: red; */
+  width: 262px;
+  /* 여기 옆에다가 장소선택 칸 넣어야함. */
+}
+
+section.main-box .select-movie {
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  /* width: 262px; */
+}
+section.main-box .select-movie .butn {
+  background-color: #f2f0e5;
+  text-align: left;
+}
+
+/* 영화칸 끗 */
+
+/* 극장칸 */
+section.main-box .contents2 {
+  width: 262px;
+}
+
+section.main-box .place .butn2 {
+  background: #e6e4d9;
+}
+section.main-box .place .butn3 {
+  background: #f2f0e5;
+}
+#seoul {
+  background: #f2f0e5;
+}
+section.main-box .contents {
+  /* background: teal; */
+}
+section.main-box .place {
+  /* color: orange; */
+  display: flex;
+  flex-direction: column;
+}
+section.main-box .sub-place {
+  /* color: violet */
+  
+  display: flex;
+  flex-direction: column;
+}
+section.main-box .headtxt2 button {
+  height: 30px;
+  width: 87px;
+  font-size: 14px;
+}
+section.main-box .contents2 {
+}
+section.main-box .contents {
+  /* 왼쪽칸임 */
+  position: relative;
+  
+}
+
+
+section.main-box .contents .index1 {
+  color: red;
+}
+
+/* 극장칸 끗 */
 /* footer */
 .container {
   background: url("../images/final.png") no-repeat;
@@ -144,4 +227,9 @@ section.main-box .headtxt button {
   padding: 0;
   border: none;
   background: none;
+}
+.index2 {
+  margin-left: 20px;
+  margin-top: 9px;
+  background: red;
 }

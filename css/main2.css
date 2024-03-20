@@ -1,0 +1,96 @@
+/* 아래는 font awesome 입니다. */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
+
+/* 상단 메뉴바. */
+
+* {
+  box-sizing: border-box;
+}
+
+.navi .top {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /* border: 2px solid greenyellow; */
+  padding: 30px 0px 15px 0px;
+}
+
+.navi .top .top-menu {
+  color: #333333;
+  margin-left: 5px;
+}
+
+.navi .top .top-menu .btn {
+  background: #f2f0e5;
+  font-size: 12px;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.navi .top .top-menu .btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 25px;
+  font-weight: bolder;
+  color: #333333;
+}
+/* 상단 메뉴바 */
+section.main-box .contents {
+  height: 100%;
+  width: 262.25px;
+  flex: 3;
+  border: 1px solid #333333;
+  
+}
+section.main-box .contents2 {
+  height: 100%;
+  width: 262.25px;
+  flex: 3;
+  border: 1px solid #333333;
+}
+section.main-box .contents3 {
+  flex: 1;
+  border: 1px solid #333333;
+  height: 100%;
+  overflow-y: hidden;
+}
+section.main-box .contents4 {
+  flex: 4;
+  border: 1px solid #333333;
+  height: 100%;
+  
+}
+section.main-box .contents2 .headtxt2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+section.main-box .contents2 .headtxt2 button {
+  width: 33%;
+}
+section.main-box {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  background: #f2f0e5;
+  height: 565px;
+}
+section.main-box .index1 {
+  width: 100%;
+  background: #333333;
+  color: #f2f0e5;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.index2 {
+  margin-left: 20px;
+  margin-top: 9px;
+  background: violet;
+}
+
+a {
+  text-decoration: none;
+}

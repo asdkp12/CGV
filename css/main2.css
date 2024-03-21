@@ -210,7 +210,7 @@ section.main-box .contents3 {
   overflow: hidden;
 }
 section.main-box .contents3 .index4 {
-  overflow: scroll;
+  overflow: scroll
 }
 section.main-box .contents3 .index4 a {
   display: flex;
